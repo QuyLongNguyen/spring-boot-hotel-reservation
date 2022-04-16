@@ -27,7 +27,7 @@ public class RoomType {
 
     private String description;
 
-    @Column(name = "unit_price",precision = 8, scale = 2)
+    @Column(name = "unit_price", precision = 8, scale = 2)
     private BigDecimal unitPrice;
 
     @OneToMany(mappedBy = "roomType")

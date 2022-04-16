@@ -26,6 +26,10 @@ public class BookingRequest {
     private LocalDate endDate;
 
     @ManyToOne
+    @JoinColumn(name = "room_id")
+    private Room room;
+
+    @ManyToOne
     @JoinColumn(name = "guest_id")
     private Guest guest;
 }
