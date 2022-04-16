@@ -22,12 +22,39 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# ide metadata file
-/.idea
-/.metadata
-/.settings
-/.classpath
-/.project
+HELP.md
+target
+!.mvnwrappermaven-wrapper.jar
+!srcmaintarget
+!srctesttarget
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+.iws
+.iml
+.ipr
+
+### NetBeans ###
+nbprojectprivate
+nbbuild
+dist
+nbdist
+.nb-gradle
+build
+!srcmainbuild
+!srctestbuild
+
+### VS Code ###
+.vscode
 
 # properties files
 /src/main/resources/application-local.properties
